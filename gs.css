@@ -3,3 +3,10 @@
     font-family: verdana;
     font-size: 30%;
   }
+
+.direction {
+    font-style: inherit;
+   font-size: 15px;
+   color: black;
+   background-color: aliceblue;
+}
