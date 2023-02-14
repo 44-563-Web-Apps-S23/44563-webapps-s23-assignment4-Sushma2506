@@ -28,7 +28,11 @@
 
 }
 .ANDREW:hover{
-    text-shadow: 3px 4px 5px yellowgreen;
+    text-shadow: 5px 5px 10px black;
+    border: 5px dashed chartreuse;
+}
+.JOEL{
+    text-shadow: 5px 5px 10px black;
     border: 5px dashed chartreuse;
 
 }
