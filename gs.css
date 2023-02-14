@@ -1,0 +1,93 @@
+.name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: black;
+}
+.scene{
+    font-size: large;
+}
+
+.speech{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: black;
+    text-indent: 10px;
+}
+.song{
+    font-style: initial;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: black;
+    text-indent: 20px;
+}
+.direction{
+    font-style: inherit;
+   font-size: 15px;
+   color: black;
+   background-color: aliceblue;
+}
+.direction:hover{
+    color: chartreuse;
+    background-color: lightcyan;
+}
+.ALL{
+    font-style: italic;
+    color: blueviolet;
+}
+.JUL{
+    font-family: serif;
+    color: brown;
+    background-color: lavender;
+
+}
+.JUL:hover{
+    text-shadow: 3px 4px 5px yellowgreen;
+    border: 5px dashed chartreuse;
+
+}
+.ALL:after{
+    text-shadow: 4px 5px 6px burlywood;
+    border: 5px dashed lawngreen;
+}
+table{
+    border: solid firebrick 3px;
+    border-collapse: collapse;
+    width: 35%;
+    color: blue;
+    text-align: center;
+    margin: 5%;
+    padding: 1%;
+}
+tr,th,td{
+    border: 1px solid;
+    margin: 1px 1px;
+    padding: 15px;
+}
+th{
+    font-size:medium;
+    font-weight: bold;
+}
+td{
+    font-size: medium;
+}
+tr:nth-child(even) {
+background-color: aliceblue;
+}
+tr:nth-child(odd) {
+    background-color: darkorange;
+}
+
+
+.navbar-horizontal {
+    list-style-type: none;
+    background-color: beige;
+    padding: 40px;
+}
+
+li a,i{
+
+    float: left;
+    padding: 8px;
+    
+}
