@@ -10,11 +10,11 @@
     font-style: inherit;
    font-size: 15px;
    color: black;
-   background-color: aliceblue;
+   background-color:honeydew;
 }
 
 .direction:hover{
-    color: chartreuse;
-    background-color: lightcyan;
+    color:bisque;
+    background-color:aqua;
 }
 
