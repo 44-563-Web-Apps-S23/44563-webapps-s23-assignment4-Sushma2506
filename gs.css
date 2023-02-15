@@ -40,11 +40,19 @@
 table, th, td {
     border-collapse: collapse;
     border: 5px double black;
-    background-color:aliceblue;
+    background-color:white;
     padding: 20px;
     text-align: left;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: lightblue;
     
 }
-tr:hover{
-    background-color:black;
+tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
 }
+  
+th:nth-child(odd),td:nth-child(odd) {
+    background-color: rgba(150, 212, 212, 0.4);
+ }
