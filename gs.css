@@ -59,11 +59,11 @@ th:nth-child(odd),td:nth-child(odd) {
 
 ul.navbar-horizontal {
     list-style-type: none;
-    margin: 20px;;
+    margin: 10px;;
     padding: 20px;
 }
 ul.navbar-horizontal li {
-    float:left; /* line up horizontally */
+    float:left; 
     color:#000;
     background-color:bisque;
 }
